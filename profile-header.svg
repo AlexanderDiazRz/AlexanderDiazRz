@@ -1,0 +1,44 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Alexander Díaz Ramírez</title>
+  <desc id="desc">Desarrollador de software junior y estudiante de término de Ingeniería en Software</desc>
+  <defs>
+    <linearGradient id="background" x1="58" y1="24" x2="1136" y2="305" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#451820"/>
+      <stop offset="0.52" stop-color="#8C2F39"/>
+      <stop offset="1" stop-color="#D1495B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFC2C9"/>
+      <stop offset="1" stop-color="#FFF0F2"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFE1E5" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <circle cx="1090" cy="30" r="190" fill="#F17B88" fill-opacity="0.2" filter="url(#blur)"/>
+  <circle cx="70" cy="310" r="150" fill="#FFD3D8" fill-opacity="0.12" filter="url(#blur)"/>
+
+  <g opacity="0.82">
+    <path d="M986 83L1056 124V206L986 247L916 206V124L986 83Z" stroke="url(#accent)" stroke-width="2"/>
+    <path d="M946 141L916 159L946 177" stroke="#FFF0F2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1026 141L1056 159L1026 177" stroke="#FFF0F2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1003 126L970 193" stroke="#FFC2C9" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="72" y="90" fill="#FFD7DC" font-size="22" font-weight="600" letter-spacing="3">HOLA, SOY</text>
+    <text x="68" y="164" fill="#FFFFFF" font-size="56" font-weight="750" letter-spacing="-1.2">Alexander Díaz Ramírez</text>
+    <text x="72" y="215" fill="#FFF0F2" font-size="25" font-weight="500">Desarrollador de software junior · Estudiante de Ingeniería en Software</text>
+    <g transform="translate(72 250)">
+      <circle cx="9" cy="9" r="8" fill="#FFC2C9"/>
+      <circle cx="9" cy="9" r="3" fill="#8C2F39"/>
+      <text x="29" y="17" fill="#FFE7EA" font-size="20">Santo Domingo, República Dominicana</text>
+    </g>
+  </g>
+</svg>
